@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup_args = dict(
     name='request_ray',
-    version='0.1.1',
+    version='0.1.2',
     description='a batch based request package with retry stratgy that enables you to send X requests concurrently at rate of Y requests/execution', # noqa
     long_description_content_type="text/markdown",
     long_description=README + '\n\n',
